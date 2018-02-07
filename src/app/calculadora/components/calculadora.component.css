@@ -24,7 +24,7 @@ padding: 0px;
 }
 .bg-contenedor-calculator {
 	width: 236px;
-    height: auto;
+    height: 362px;
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 6px;
@@ -58,11 +58,6 @@ padding: 0px;
     border: 1px solid transparent;
     border-radius: 100px;
 }
-
-.btn-igual {
-	width: 100%;
-}
-
 .btn-success {
     color: #fff;
     background-color: #EC0000;
@@ -76,8 +71,8 @@ padding: 0px;
 .color-texto {
 	color: #EC0000;
 	font-size: 16px;
-	letter-spacing: 0;
 	line-height: 16px;
+    letter-spacing: 0;
 	font-family: Roboto-Bold;
 }
 .magin-left {
@@ -86,4 +81,42 @@ padding: 0px;
 
 .input-operaciones {
 	color: #000;
+}
+.titulo-calculadora {
+    width: 236px;
+    height: 21px;
+    border-radius: 6px 6px 0 0;
+}
+
+.col-xs-3 {
+    width: 56px;
+    height: 56px;
+}
+
+.col-sm-3ultimo {
+    width: 58px;
+    height: 45px;
+    margin-top: -0px;
+}
+
+.btn-signos {
+    font-size: 16px;
+    margin-top: -8px;
+    background-color: transparent;
+}
+
+.btn-menos {
+    margin-top: -45px;
+    font-size: 16px;
+    background-color: transparent;
+}
+.btn-mas {
+        margin-top: -16px;
+        font-size: 16px;
+        background-color: transparent;
+}
+.btn-limpiar {
+    margin-top: 2px;
+    font-size: 16px;
+    background-color: transparent;
 }
