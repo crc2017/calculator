@@ -1,9 +1,6 @@
 /**
- * Serviço reponsavel por execultar as operações da
+ * Serviço responable para ejecutar las operaciones de
  * calculadora
- *
- * @author Juliano Da Silva Barbosa
- * @since 1.0.0
  */
 
 import { Injectable } from '@angular/core';
@@ -19,18 +16,13 @@ export class CalculadoraService {
 
   constructor() { }
 /**
- * Método que calcula operação matematica com
- * dois numeros
- * Suporta as operações soma, subtração, multiplicação
- * e divisão.
- *
- * @param num1 number
- * @param num2 number
- * @param operacao operação string Operação a ser execultada
- * @return number retorna o resultado da operação
+ * Método que calcula operaciones matematicas con
+ * dos numeros
+ * Soporta las operaçiones suma, resta, multiplicacion
+ * y division.
  */
   calcular(num1: number, num2: number, operacao: string): number {
-    let resultado: number; //armazena o resultado da operação
+    let resultado: number; //almacena el resultado de la operación
 
     switch (operacao) {
       case CalculadoraService.SOMA:

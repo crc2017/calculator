@@ -38,39 +38,41 @@ padding: 0px;
 }
 
 .btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
     font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 0;
     font-weight: 400;
-    line-height: 1.42857143;
+    padding: 6px 12px;
+    user-select: none;
     text-align: center;
     white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
     border-radius: 100px;
+    display: inline-block;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    background-image: none;
+    vertical-align: middle;
+    line-height: 1.42857143;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border: 1px solid transparent;
+    -ms-touch-action: manipulation;
+    
+    
 }
 .btn-success {
     color: #fff;
-    background-color: #EC0000;
     border-color: #ef0e0e;
+    background-color: #EC0000;
 }
 .btn-success:hover {
     color: #fff;
+    border-color: #ce1c1c;
     background-color: #ce1c1c;
-    border-color: #ce1c1c;;
 }
 .color-texto {
-	color: #EC0000;
-	font-size: 16px;
+    font-size: 16px;
+    color: #EC0000;
 	line-height: 16px;
     letter-spacing: 0;
 	font-family: Roboto-Bold;
@@ -106,13 +108,13 @@ padding: 0px;
 }
 
 .btn-menos {
-    margin-top: -45px;
     font-size: 16px;
+    margin-top: -45px;
     background-color: transparent;
 }
 .btn-mas {
-        margin-top: -16px;
         font-size: 16px;
+        margin-top: -16px;
         background-color: transparent;
 }
 .btn-limpiar {
